@@ -23,8 +23,8 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title-xsmall" x="700" y="1740">RAGGED</text>
-	<text class="title-xsmall" x="700" y="1810">DICK, OR, STREET LIFE IN NEW</text>
+	<text class="title-xsmall" x="700" y="1740">RAGGED DICK,</text>
+	<text class="title-xsmall" x="700" y="1810">OR, STREET LIFE IN NEW</text>
 	<text class="title-xsmall" x="700" y="1880">YORK WITH THE BOOTBLACKS</text>
 	<text class="author" x="700" y="1980">HORATIO ALGER, JR.</text>
 </svg>
