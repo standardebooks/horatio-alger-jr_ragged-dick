@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/horatio-alger-jr/ragged-dick-or-street-life-in-new-york-with-the-boot-blacks</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/horatio-alger-jr/ragged-dick-or-street-life-in-new-york-with-the-bootblacks</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -26,8 +26,15 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">Ragged Dick, or, Street Life in New York with the Boot-Blacks</dc:title>
-		<meta property="file-as" refines="#title">Ragged Dick, or, Street Life in New York with the Boot-Blacks</meta>
+		<dc:title id="title">Ragged Dick, or, Street Life in New York with the Bootblacks</dc:title>
+		<meta property="file-as" refines="#title">Ragged Dick</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, Street Life in New York with the Bootblacks</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, Street Life in New York with the Bootblacks</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Ragged Dick, or, Street Life in New York with the Bootblacks</dc:title>
+		<meta property="file-as" refines="#title">Ragged Dick</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">New York (N.Y.) -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Bildungsromans</dc:subject>
 		<dc:subject id="subject-3">Boys -- Fiction</dc:subject>
@@ -46,37 +53,38 @@
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2010114831</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Children’s</meta>
+		<dc:description id="description">A young shoeshiner rises the social ladder thanks to his wits, his work ethic, his honesty, and a bit of luck.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			Dick Hunter is a shoeshiner working and living on the streets of New York City in the mid-19th century. Despite being dealt a bad hand, Dick attempts to extricate himself from his situation and become respectable. However, it won’t be easy, thanks to the bullies, con men, and thieves that roam the city. Dick has to outmatch them through his wits, his work ethic, his honesty, and a bit of luck.
+			
+			This is Alger’s most well-known novel, and it sets the formula for his numerous subsequent rags-to-riches works for which he became famous, as well as introduces the “Alger hero” into the literary canon.
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5348</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://catalog.hathitrust.org/Record/012192552</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/horatio-alger-jr_ragged-dick-or-street-life-in-new-york-with-the-boot-blacks</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ragged_Dick</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/horatio-alger-jr_ragged-dick-or-street-life-in-new-york-with-the-bootblacks</meta>
 		<dc:creator id="author">Horatio Alger, Jr.</dc:creator>
-		<meta property="file-as" refines="#author">Jr., Horatio Alger,</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Alger, Horatio Jr.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Horatio_Alger,_Jr.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80010363</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">William A. Coffin</dc:contributor>
+		<meta property="file-as" refines="#artist">Coffin, William A.</meta>
+		<meta property="se:name.person.full-name" refines="#artist">William Anderson Coffin</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Anderson_Coffin</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85098626</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Project Gutenberg</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Project Gutenberg</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://www.gutenberg.org</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">John Nabholz</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Nabholz, John</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
