@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-14.xhtml">
+		<ignore>
+			<code>t-005</code>
+			<reason>There is no ending comma for the phrase "of course" because it denotes the specific phrase--much like how it's used here--as opposed to an actual quote. No ending comma needed.</reason>
+		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>The paragraph lacks ending punctuation because its contents are directly continued in the next one. The source formats Dick's name as on a separate line from the rest of the paragraph, and I decided to replicate that. No ending punctuation needed for this paragraph.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
