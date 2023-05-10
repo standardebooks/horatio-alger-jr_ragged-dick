@@ -58,7 +58,7 @@
 		<dc:description id="description">A young shoeshiner rises the social ladder thanks to his wits, his work ethic, his honesty, and a bit of luck.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Dick Hunter is a shoeshiner working and living on the streets of New York City in the mid-19th century. Despite being dealt a bad hand, Dick attempts to extricate himself from his situation and become respectable. However, it won’t be easy, thanks to the bullies, con men, and thieves that roam the city. Dick has to outmatch them through his wits, his work ethic, his honesty, and a bit of luck.&lt;/p&gt;
-			&lt;p&gt;This is Alger’s most well-known novel, and it sets the formula for his numerous subsequent rags-to-riches works for which he became famous, as well as introduces the “Alger hero” into the literary canon.&lt;/p&gt;
+			&lt;p&gt;This is &lt;a href="https://standardebooks.org/ebooks/horatio-alger-jr"&gt;Alger’s&lt;/a&gt; most well-known novel, and it sets the formula for his numerous subsequent rags-to-riches works for which he became famous, as well as introduces the “Alger hero” into the literary canon.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5348</dc:source>
