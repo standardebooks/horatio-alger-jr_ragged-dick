@@ -10,10 +10,4 @@
 			<reason>The paragraph lacks ending punctuation because its contents are directly continued in the next one. The source formats Dick's name as on a separate line from the rest of the paragraph, and I decided to replicate that. No ending punctuation needed for this paragraph.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-23.xhtml">
-		<ignore>
-			<code>t-002</code>
-			<reason>Comma is okay outside of the double quote because the contents inside the double quotes indicate how Dick signed his name; they're not an actual quote.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
