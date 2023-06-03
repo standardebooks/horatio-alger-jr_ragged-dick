@@ -79,8 +79,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Anderson_Coffin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85098626</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Project Gutenberg</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Project Gutenberg</meta>
+		<dc:contributor id="transcriber-1">Andrew Sly</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Andrew Sly</meta>
 		<meta property="se:url.homepage" refines="#transcriber-1">https://www.gutenberg.org</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">John Nabholz</dc:contributor>
