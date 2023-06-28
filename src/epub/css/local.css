@@ -4,7 +4,11 @@
 table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
-	margin: 1em auto 1em auto;
+	margin: 1em auto;
+}
+
+table td:nth-child(2){
+	text-align: right;
 }
 
 footer{
@@ -16,6 +20,11 @@ footer{
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+#chapter-14 blockquote{
+	font-variant: small-caps;
+	text-align: center;
 }
 
 /* Centered dedications */
@@ -46,3 +55,7 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+section[epub|type~="dedication"]{
+	font-variant: small-caps;
+}
