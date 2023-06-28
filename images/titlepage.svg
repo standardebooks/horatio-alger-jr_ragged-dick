@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 640">
-	<title>The titlepage for the Standard Ebooks edition of Ragged Dick, or, Street Life in New York with the Bootblacks, by Horatio Alger, Jr.</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 340">
+	<title>The titlepage for the Standard Ebooks edition of Ragged Dick, by Horatio Alger Jr.</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -16,9 +16,6 @@
 			font-size: 70.17543793px;
 		}
 	</style>
-	<text class="title" x="700" y="130">RAGGED DICK,</text>
-	<text class="title" x="700" y="230">OR, STREET LIFE</text>
-	<text class="title" x="700" y="330">IN NEW YORK WITH</text>
-	<text class="title" x="700" y="430">THE BOOTBLACKS</text>
-	<text class="author" x="700" y="590">HORATIO ALGER, JR.</text>
+	<text class="title" x="700" y="130">RAGGED DICK</text>
+	<text class="author" x="700" y="290">HORATIO ALGER JR.</text>
 </svg>
