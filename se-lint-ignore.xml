@@ -2,11 +2,15 @@
 <se-lint-ignore>
 	<file path="chapter-14.xhtml">
 		<ignore code="t-005">
+			<line>77</line>
 			<reason>There is no ending comma for the phrase "of course" because it denotes the specific phrase--much like how it's used here--as opposed to an actual quote. No ending comma needed.</reason>
 		</ignore>
 	</file>
 	<file path="local.css">
 		<ignore code="c-009">
+			<line>31</line>
+			<line>43</line>
+			<line>59</line>
 			<reason>Style overrides SE base style.</reason>
 		</ignore>
 	</file>
